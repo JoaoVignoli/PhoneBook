@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Book - Exercicie</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div>
+        <label for="contact-name"><span class="required">*</span>Contact Name:</label>
+        <input type="text" id="contact" name="contact-name">
+        <label for="phone"><span class="required">*</span>Phone Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx" maxlength="15">
+        <label for="secondary-phone">Secondary Phone Number:</label>
+        <input type="text" id="secondary-phone" name="secondary-phone" placeholder="(xx) xxxxx-xxxx" maxlength="15">
+        <span id="mensage"></span>
+        <button id="add-contact">New Contact</button>
+    </div>
+    <div>
+        <h1>Contact List</h1>
+        <div>
+            <table id="contacts-list">
+            </table>
+        </div>
+    </div>
+</body>
+</html>

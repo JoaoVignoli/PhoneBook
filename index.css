@@ -1,0 +1,13 @@
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+.contact-picture {
+    width: 35px;
+    border-radius: 50%;
+}
+
+#contact-list, td {
+    border: 1px solid black;
+}
